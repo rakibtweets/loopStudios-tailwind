@@ -1,11 +1,11 @@
-# Install Tailwind CSS with Create React App
+# Loop Studio Tailwind Project
 
-Setting up Tailwind CSS in a Create React App project has been done is this repository.
+To run this project you need to follow the following steps
 
 Step 1: Clone this repository
 
 ```sh
-git clone https://github.com/rakibtweets/tailwind-react-starter.git
+git clone https://github.com/rakibtweets/loopStudios-tailwind.git
 
 ```
 
@@ -15,15 +15,10 @@ Step 2: Install node packages
 npm install
 ```
 
-Step 3: Start using Tailwind in your project
+Step 3: Start react server
 
 Start using Tailwind’s utility classes to style your content.
 
-```javascript
-export default function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">TailwindCSS with React</h1>
-  );
-}
+```sh
+npm start
 ```
-# loopStudios-tailwind
