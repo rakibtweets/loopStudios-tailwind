@@ -23,6 +23,32 @@
   .item-gradient {
     @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
   }
+  .hamburger {
+    @apply cursor-pointer w-[24px] h-[24px] transition-all duration-300 relative;
+  }
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+    @apply absolute bg-white w-[24px] h-[2px] top-0 left-0 transform rotate-0 transition-all duration-300;
+  }
+  .hamburger-middle {
+    @apply transition transform translate-y-2;
+  }
+  .hamburger-bottom {
+    @apply transition transform translate-y-4;
+  }
+  .btn-open {
+    @apply transform rotate-90;
+  }
+}
+.btn-open .hamburger-top {
+  @apply transform rotate-45 translate-y-[6px] translate-x-[6px];
+}
+.btn-open .hamburger-middle {
+  @apply hidden;
+}
+.btn-open .hamburger-bottom {
+  @apply transform -rotate-45 translate-y-[6px] translate-x-[6px];
 }
 
 #hero {

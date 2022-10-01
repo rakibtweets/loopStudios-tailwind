@@ -30,6 +30,16 @@ const Hero = () => {
             </div>
           </div>
           {/* @todo: Hambuger manu*/}
+          <div className="md:hidden">
+            <button
+              id="menu-btn"
+              type="button"
+              className="btn-open z-40 block hamburger md:hidden focus:outline-none">
+              <span className="hamburger-top"></span>
+              <span className="hamburger-middle"></span>
+              <span className="hamburger-bottom"></span>
+            </button>
+          </div>
         </nav>
         {/* @todo: Mobile manu */}
         <div className="max-w-lg mt-32 p-4 font-sans text-4xl text-white uppercase border-2 md:p-10 md:m-32 md:mx-0 md:text-6xl">
