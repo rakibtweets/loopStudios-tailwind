@@ -15,7 +15,7 @@ const Features = () => {
           <h2 className="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left">
             The leader in interactive VR
           </h2>
-          <p className="max-w-md text-center md:text-left">
+          <p className="md:max-w-md text-center md:text-left">
             Founded in 2011, Loopstudios has been producing world-class virtual
             reality projects for some of the best companies around the globe.
             Our award-winning creations have transformed businesses through
